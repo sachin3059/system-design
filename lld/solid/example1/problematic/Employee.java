@@ -34,3 +34,18 @@ public class Employee {
 
 // what are the issues in this employee class?
 // list down all the issues?
+
+/* 
+SRP violation → class has multiple responsibilities.
+
+Mix of business logic + persistence → not cleanly separated.
+
+OCP violation → requires modification for new features.
+
+Low cohesion → unrelated methods grouped together.
+
+DIP violation → tightly coupled to DB operations.
+
+Hard to test → because everything is bundled.
+
+*/
